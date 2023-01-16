@@ -55,8 +55,6 @@ function decode_string($string)
         $new_crypt = true;
     }
 
-
-    // MEU DEUS EU NÃO LI ISSO
     $result = shift_letter($string, 9);
     $result = xoft_decode($result, "arroz com feijao");
     $result = substitution($result, "dec");
